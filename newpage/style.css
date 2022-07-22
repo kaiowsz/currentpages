@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+body {
+    background-image: url('backblack.jpg');
+    color: lightgray;
+    background-attachment: fixed;
+    margin: 0px;
+}
+header {
+    background-color: lightgray;
+    color: black;
+    margin-top: 0;
+    padding: 25px;
+    font-size: 2vh;
+    text-align: center;
+    margin-bottom: 20px;
+}
+header h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0px;
+    font-size: 40px;
+}
+header p {
+    margin-top: 5px;
+    font-size: 22px;
+}
+nav {
+    font-size: 16px;
+}
+nav a {
+    padding-left: 13px;
+}
+main {
+    width: 90vw;
+    background-color: lightgray;
+    color: black;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+main h1 {
+    font-size: 35px;
+}
+main p {
+    font-size: 20px;
+}
+@media (orientation: landscape) {
+    main h1 {
+        font-size: 35px;
+    }
+    main p {
+        font-size: 20px;
+    }
+}
+form {
+    font-size: 20px;
+}
+form input {
+    padding: 2px;
+    margin-bottom: 5px;
+}
+fieldset {
+    margin-bottom: 5px;
+    border: 2px solid rgb(100, 100, 100);
+}
+legend {
+    background-color: rgb(100, 100, 100);
+    color: white;
+    padding: 4px;
+    border-radius: 2px;
+}
+footer {
+    text-align: center;
+}
